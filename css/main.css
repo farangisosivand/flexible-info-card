@@ -1,9 +1,44 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  color: #000;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+img {
+  width: 5rem;
+}
+
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h3 {
+  margin-bottom: .5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
 }
